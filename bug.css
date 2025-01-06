@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly, resulting in unexpected behavior. For example, using `calc(100% - 10px)` within a nested element without considering the parent element's actual size might lead to inaccurate calculations. This often happens when the parent element doesn't have its dimensions explicitly defined or inherits dimensions that change dynamically.
