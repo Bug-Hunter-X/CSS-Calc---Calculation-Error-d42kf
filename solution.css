@@ -1,0 +1,18 @@
+/* solution.css */
+
+/* Ensure the parent element has a defined width */
+.parent {
+  width: 500px;
+}
+
+/* Now, calc() within the child will work as expected */
+.child {
+  width: calc(100% - 20px);
+  background-color: lightblue;
+}
+
+/* Or, use viewport units if needed */
+.viewport-relative {
+  width: calc(50vw - 10px);
+  background-color: lightcoral;
+}
